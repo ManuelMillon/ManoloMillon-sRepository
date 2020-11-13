@@ -4,20 +4,20 @@
 package packageexperimento1;
 import java.util.Scanner;
 /**
- * @author Manolo Millón
+ * @author Manolo MillÃ³n
  *
  */
 public class HolaReme {
 
 	/**
-	 * Hoy nos hemos encontrado todo un grupo del colegio.
+	 * Hoy nos hemos encontrado todo un grupo del colegio. Este pequeÃ±o juego es un homenaje para todos ellos, a quienes les deseos lo mejor.
 	 */
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("¿Dónde está Reme?");
+		System.out.println("Â¿DÃ³nde estÃ¡ Reme?");
 		System.out.println("Encuentra a Reme y gana un gallifante. ");
 		
-		System.out.print("Por favor, introduce el número de Reme: ");
+		System.out.print("Por favor, introduce el nÃºmero de Reme: ");
 		double numero = teclado.nextDouble();
 		double telefono;
 		telefono = 666333999;
@@ -26,7 +26,7 @@ public class HolaReme {
 		if ((numero) == (telefono)) {
 			System.out.println("Enhorabuena, has encontrado a Reme.");
 		} else {
-			System.out.println("Querido compañero del Ortega: Mala suerte, continúa buscando.");
+			System.out.println("Querido compaÃ±ero del Ortega: Mala suerte, continÃºa buscando.");
 		}
 			
 		}
